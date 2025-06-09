@@ -4,7 +4,7 @@
 ## Como executar o projeto
 Execute o código abaixo para iniciar o projeto em Go com Docker Compose e acesse o serviço na URL `http://localhost:8080/execute?cep=04475030`.
 ```bash
-docker compose up
+docker compose up goexpert-lab-deploy-dev
 ```
 
 ## Deploy no Google Cloud Run
