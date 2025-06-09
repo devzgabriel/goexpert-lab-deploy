@@ -10,7 +10,7 @@ docker compose up
 ## Deploy no Google Cloud Run
 URL: 
 ```bash
-https://goexpert-lab-deploy-m3hc6hg4ra-uc.a.run.app/execute?cep=0447503
+https://goexpert-lab-deploy-m3hc6hg4ra-uc.a.run.app/execute?cep=04475030
 ```
 
 

@@ -21,8 +21,7 @@ type ErrorResponse struct {
 	Message string `json:"message"`
 }
 
-func main() {
-
+func startServer() {
 	err := godotenv.Load()
 	if err != nil {
 		fmt.Println("Error loading .env file")
@@ -109,4 +108,8 @@ func main() {
 
 	fmt.Println("Server is running on port 8080")
 	http.ListenAndServe(":8080", nil)
+}
+
+func main() {
+	startServer()
 }
